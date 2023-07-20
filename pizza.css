@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(211, 208, 204);
+    min-height: 100%;
+    padding: 0 .5em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.user {
+    color: white;
+    font-weight: bold;
+}
+
+.txtbox {
+    border-radius: .5em;
+    border-color: #f1b738;
+    height: 1.5em;
+}
+
+.pizza {
+    display: flex;
+}
+
+.pizzas {
+    display: block;
+    margin: 3em;
+}
+
+.text {
+    text-align: center;
+}
+
+hr {
+    margin: 1em;
+    border-color: rgb(255, 255, 255);
+}
+
+.container {
+    background: linear-gradient(360deg, rgb(92, 80, 54) 0%, rgb(240, 141, 11), rgb(255, 174, 0));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(100, 93, 79);
+    padding: .25em;
+}
+
+.contain {
+    color: #fafafa;
+    padding: .25em;
+}
+
+.icon {
+    padding: .5em;
+}
+
+.bcolor {
+    background-color: unset;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3em;
+    float: right;
+}
+
+.bcolor:hover {
+    background-color: rgb(63, 39, 39);
+    border-radius: 3em;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.icon:hover {
+    color: #f8ac08;
+}
+
+.username {
+    float: right;
+    padding: .5em;
+}
+
+.i {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.i span {
+    color: black;
+}
+
+i {
+    color: #fafafa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.card, .card1 {
+    background: linear-gradient(360deg, rgb(85, 82, 77) 0%, rgrgb(36, 24, 9)rgb(255, 174, 0));
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+}
+
+.text {
+    text-align: center;
+}
+
+h4 span {
+    color: rgb(255, 255, 255);
+}
+
+.message {
+    color: rgb(255, 0, 0);
+}
+
+.btn, .btn1 {
+    background-color: rgb(114, 173, 6);
+    color: black;
+    font-weight: bold;
+    border-color: rgb(173, 143, 6);
+    border: 0;
+    font-weight: bold;
+    border-radius: .5em;
+    height: 2em;
+    width: auto;
+    margin: 1em;
+}
+
+.btn:hover, .btn1:hover {
+    color: white;
+    background-color: rgb(112, 112, 112);
+}
+
+.innerContainer {
+    flex: 1;
+    display: block;
+}
+
+footer {
+    bottom: 0;
+    display: flex;
+    background-color: rgb(19, 18, 17);
+    font-style: italic;
+    font-weight: bold;
+    line-height: .5em;
+    border-radius: 0.5em;
+}
+
+img {
+    width: 180px;
+    height: 120px;
+    float: left;
+}
+
+.footer {
+    padding: 1em;
+    margin: 1em;
+}
+
+@media (min-width: 300px) {
+    .footer {
+        flex: 1;
+    }
+
+    .pizza {
+        display: block;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card, .card1 {
+        background-color: rgb(119, 119, 61);
+        width: 90%;
+        padding: .1em;
+        line-height: .5em;
+        display: block;
+        margin: 3em;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .pizza {
+        display: block;
+    }
+
+    .card, .card1 {
+        background-color: rgb(44, 36, 26);
+        width: 90%;
+        text-align: center;
+        margin: 3em;
+        display: block;
+        padding: .1em;
+        line-height: .5em;
+    }
+
+    img {
+        width: 180px;
+        float: left;
+    }
+}
